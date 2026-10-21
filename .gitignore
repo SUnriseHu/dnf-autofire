@@ -1,0 +1,28 @@
+# ---- 构建产物 ----
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.pdb
+*.ilk
+
+# ---- 运行期 / 本地文件 ----
+*.log
+*.ini
+backup/
+*.bak
+
+# ---- 工具链（体积大，不入库）----
+tools/toolchain/
+toolchain*/
+*.7z
+*.zip
+
+# ---- 系统杂物 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 工作区私有数据（不入库）----
+.workbuddy/

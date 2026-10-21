@@ -1,0 +1,13 @@
+* text=auto
+
+# 脚本与源码统一 LF，保证在 Linux/macOS 下也能直接运行
+*.sh   text eol=lf
+*.c    text eol=lf
+*.h    text eol=lf
+*.def  text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
+
+# 二进制
+*.dll  binary
+*.exe  binary
